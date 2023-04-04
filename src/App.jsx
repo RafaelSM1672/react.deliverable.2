@@ -45,7 +45,7 @@ function App() {
   }, [coords])
 
   return (
-    <div className="App grid place-content-center min-h-screen bg-[url('/images/bg-brokenClouds.jpg')] bg-cover px-2">
+    <div className="App grid place-content-center min-h-screen bg-[url('/images/bg-sunshine.jpg')] bg-cover px-2">
       {
         weather ? (
           <Weather weather={weather} temp={temp} />
